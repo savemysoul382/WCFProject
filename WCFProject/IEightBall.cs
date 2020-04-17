@@ -3,7 +3,7 @@ using System.ServiceModel;
 
 namespace WCFProject
 {
-    [ServiceContract(Namespace = "http://MyCompany.com")]
+    [ServiceContract]
     public interface IEightBall
     {
         // Задайте вопрос, получите ответ!
